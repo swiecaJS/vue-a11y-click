@@ -9,8 +9,8 @@ const a11yClick = {
         el.setAttribute("aria-pressed", "false");
 
         el.addEventListener("keydown", () => {
-          // enter keycode = 13 || space keycode = 32
-          if (event.keyCode !== 13 || event.keyCode !== 32 || pressed) return;
+          // enter keycode = 13
+          if (event.keyCode !== 13 || pressed) return;
           pressed = true;
           el.setAttribute("aria-pressed", "true");
           el.click();
