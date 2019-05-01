@@ -1,6 +1,6 @@
 {
   "name": "vue-a11y-click",
-  "version": "1.0.0",
+  "version": "0.1",
   "description": "Vue directive for handling click events on screen readers",
   "main": "src/index.js",
   "repository": {
